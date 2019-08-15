@@ -1,0 +1,418 @@
+.bg_red{
+	background: #CA3438;
+}
+
+/*format header*/
+header{
+	padding-top: 10px;
+	border-bottom: 5px solid #CA3438;
+	z-index: 1;
+	position: relative; 
+}
+header #logo{
+	float: left;
+}
+header #menu{
+	float: right;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#nav_menu a:hover{
+	color: #CA3438;
+	text-decoration: none;	
+}
+#nav_menu{
+	margin: 5px;
+	font-size: 110%;
+}
+ #nav_menu ul{
+	position: relative;
+}
+#nav_menu ul li{
+	color: black;
+	float: left;
+	margin-left: 10px;
+	border-right: 1px solid grey;
+	list-style-type: none;
+	padding: 3px;	
+}
+#nav_menu ul ul{
+	padding-top: 20px;
+	position: absolute;
+	display: none;
+	left: 10%;
+}
+#nav_menu ul li:hover >ul
+{
+	display: block;
+}
+#nav_menu ul ul li{
+	text-align: left;
+	clear: both;
+	border:none;
+	border-bottom: 1px solid #CA3438;;
+	width: 170px;	
+	background: white;
+	z-index: 1;
+}
+#nav_menu ul ul ul{
+	position: absolute;
+	display: none;
+}
+#nav_menu ul ul li:hover ul{
+	display: block;
+}
+#nav_menu #chuyennghiep{
+	top:0%;
+	left: 77%;
+}
+#nav_menu #captoc{
+	top: 27%;
+	left: 77%;
+}
+#nav_menu #khoakhac{
+	top: 54%;
+	left: 77%;
+}
+
+/*format banner*/
+#form_timkiem{
+	left: 67%;
+	display: none;
+	z-index: 1;
+	position: absolute;
+}
+#form_timkiem form input{
+	color: white;
+	background: #CA3438;
+	float: left;
+}
+body #banner img{
+	width: 100%;
+}
+body #banner{
+	padding: 0 40px;
+}
+/*format dangki*/
+#div_registry{
+	padding: 20px;
+}
+#registry{
+	padding: 5px;
+	border: 1px;
+	border-color: white;
+	border-style: dashed;
+}
+#registry img{
+	float: left;
+}
+#registry h4{
+	color: white;
+	text-indent: 5px;
+}
+#input1{
+	text-indent: 5px;
+	margin-top: 5px;
+	width: 200px;
+}
+#select_kh{
+	text-indent: 5px;
+	margin-top: 5px;
+	width: 200px;
+}
+#btndangki{
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 120%;
+	background: #FAA724;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+a{
+	text-decoration: none;
+}
+
+#information{
+	margin: 20px;
+	border: 1px;
+	border-color: white;
+	border-style: dashed;
+	float: none;
+	height: auto;
+}
+
+#information_img{
+	padding: 5px;
+}
+#information_img img{
+	float: left;
+}
+#information_img h4{
+	color: white;
+	text-indent: 5px;
+}
+#information_kh ul{
+	margin-top: 10px;
+	
+}
+#information_kh ul li a{
+	color: white;
+}
+#information_kh ul li a img{
+	padding: 3px;
+	border: 1px;
+	border-color: white;
+	border-style: dashed;
+	border-radius: 50%;
+}
+#information_kh ul li{
+	float: left;
+	list-style-type: none;
+	margin: 10px 25px;
+	color: white;
+}
+#khoahoc{
+	margin: 20px;
+	border: 1px;
+	border-color: white;
+	border-style: dashed;
+	float: none;
+	height: auto;
+}
+
+/*format gioithieu*/
+#gioithieu_img{
+	margin-top: 20px;
+	padding: 15px;
+}
+#gioithieu_img a img{
+	width: 320px;
+	border-radius: 50%;
+}
+#gioithieu_word{
+	margin-top: 20px;
+	padding: 15px;
+}
+#gioithieu_word a img{
+	width: 250px;
+	border-bottom: 1px solid grey;
+}
+.btn{
+	background: #FAA724;
+	float: right;
+	border-radius: 5px;
+}
+#ketnoi img{ 
+	float: left;
+	width: 60px;
+}
+
+
+/*format lichkhaigiang*/
+.lichkhaigiang_header{
+	padding: 10px;
+	color: white;
+	clear: both;
+
+}
+.lichkhaigiang_header img{
+	padding-top: 10px;
+	float: left;
+	width: 40px;
+}
+
+.lichkhaigiang_header h3{
+	text-indent: 5px;
+}
+
+.lichkhaigiang_kh{
+	margin: 10px 0;
+}
+.lichkhaigiang_kh ul{
+	float: left;
+	padding: 5px;
+}
+.lichkhaigiang_kh ul li{
+	float: none;
+	list-style-type: none;
+	color: white;
+	text-indent: 5px;
+	width: auto;
+}
+.lichkhaigiang_kh ul li a{
+	color: white;
+	text-decoration: none;
+}
+.lichkhaigiang_kh ul li p{
+	width: 250px;
+}
+
+.lichkhaigiang_kh img{
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.khoakhac{
+	margin: 10px;
+}
+/*format tintuc*/
+
+#tintuc{
+	/*padding: 15px;*/
+}
+.tintuc_header{
+	padding: 10px;
+}
+.tintuc_header img{
+	padding-top: 15px;
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+#tintuc_body{
+	margin-bottom: 100px;
+}
+#tintuc_body img{
+	float: left;
+	width: 250px;
+	margin: 0 10px;
+}
+#tintucdadua{
+	margin: 40px 15px;
+}
+.tindadua{
+	margin-top: 30px;
+	width: 50%;
+	float: left;
+}
+.tindadua img{
+	float: left;
+	width: 80px;
+	margin-right: 10px;
+}
+.tindadua a:hover{
+	text-decoration: none;
+	color: red;
+}
+#tuyendung{
+	padding: 10px;
+}
+
+#tuyendung ul li{
+	list-style-type: none;
+	margin-top: 10px;
+}
+#tuyendung ul li img{
+	width: 80px;
+}
+.tuyendung_a{
+	color: red;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/*format footer*/
+footer{
+	background: #A9A9A9;
+}
+footer p{
+	margin: 0;
+	margin-top: 10px;
+	color: white;
+}
+/*format form loi nhan*/
+#loinhan{
+	width: 300px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	background: white;
+	padding: 10px;
+	padding-top: 0;
+	border: 1px solid grey;
+}
+#loinhan2{
+	display: none;
+	width: 300px;
+	position: fixed;
+	right: 2px;
+	bottom: 2px;
+	background: white;
+	padding-top: 0;
+	border: 1px solid grey;
+}
+
+#close{
+	background: #C67F39;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+#close2{
+	background: #C67F39;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding: 0 0;
+	margin: 0 0;
+}
+#loinhan form label{
+	font-weight: bold;
+}
+#loinhan form input{
+	width: 250px;
+	margin: 5px;
+}
+#loinhan form button{
+	background: #C67F39;
+	color: white;
+	width: 250px;
+	float: left;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 960px){
+	
+	#loinhan{
+		display: none;
+	}
+	#loinhan2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	
+	#loinhan{
+		display: none;
+	}
+	#loinhan2{
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 550px){
+	#loinhan{
+		display: none;
+	}
+	#loinhan2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px){
+	#loinhan{
+		display: none;
+	}
+	#loinhan2{
+		display: none;
+	}
+}
